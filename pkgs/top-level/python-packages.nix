@@ -2357,6 +2357,8 @@ self: super: with self; {
 
   cardimpose = callPackage ../development/python-modules/cardimpose { };
 
+  cargo-ament-build = callPackage ../development/python-modules/cargo-ament-build { };
+
   cart = callPackage ../development/python-modules/cart { };
 
   cartopy = callPackage ../development/python-modules/cartopy { };
@@ -2819,6 +2821,8 @@ self: super: with self; {
 
   colcon-cargo = callPackage ../development/python-modules/colcon-cargo { };
 
+  colcon-cmake = callPackage ../development/python-modules/colcon-cmake { };
+
   colcon-defaults = callPackage ../development/python-modules/colcon-defaults { };
 
   colcon-installed-package-information =
@@ -2839,11 +2843,21 @@ self: super: with self; {
 
   colcon-parallel-executor = callPackage ../development/python-modules/colcon-parallel-executor { };
 
+  colcon-pkg-config = callPackage ../development/python-modules/colcon-pkg-config { };
+
+  colcon-python-setup-py = callPackage ../development/python-modules/colcon-python-setup-py { };
+
   colcon-recursive-crawl = callPackage ../development/python-modules/colcon-recursive-crawl { };
+
+  colcon-ros = callPackage ../development/python-modules/colcon-ros { };
+
+  colcon-ros-cargo = callPackage ../development/python-modules/colcon-ros-cargo { };
 
   colcon-ros-domain-id-coordinator =
     callPackage ../development/python-modules/colcon-ros-domain-id-coordinator
       { };
+
+  colcon-test-result = callPackage ../development/python-modules/colcon-test-result { };
 
   collections-extended = callPackage ../development/python-modules/collections-extended { };
 
